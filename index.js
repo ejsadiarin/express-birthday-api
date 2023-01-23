@@ -9,3 +9,11 @@ app.listen(
     PORT,
     () => console.log(`it's alive and listening on http://localhost:${PORT}`)
 )
+
+// GET 
+app.get('/birthday', (req, res) => {
+    res.status(200).send({
+        message: 'Happy 19th Birthday to my exquisite self',
+        quote: 'Show God His most beautiful creation'
+    })
+})
