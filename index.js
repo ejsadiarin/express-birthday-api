@@ -1,6 +1,8 @@
 /**
  * First time using express
  * January 23, 2023 11:11 PM
+ * 
+ * fully working simple REST API using Express in Node.js (finished: 11:28 PM)
  */
 // const app = require('express')();
 const express = require('express');
