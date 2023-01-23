@@ -2,8 +2,13 @@
  * First time using express
  * January 23, 2023 11:11 PM
  */
-const app = require('express')();
+// const app = require('express')();
+const express = require('express');
+const app = express();
 const PORT = 8080;
+
+// add middleware --> so every request is parsed into JSON format before using as data or object in this code
+app.use( express.json() )
 
 app.listen(
     PORT,
