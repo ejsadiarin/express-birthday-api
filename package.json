@@ -1,0 +1,23 @@
+{
+  "name": "express-js-birthday-api",
+  "version": "1.0.0",
+  "description": "created by Ej Sadiarin on January 23, 2023 10:52 PM  LESGOWW first time using express for node.js truly exquisite",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejsadiarin/express-birthday-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ejsadiarin/express-birthday-api/issues"
+  },
+  "homepage": "https://github.com/ejsadiarin/express-birthday-api#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
