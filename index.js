@@ -17,3 +17,17 @@ app.get('/birthday', (req, res) => {
         quote: 'Show God His most beautiful creation'
     })
 })
+// POST
+app.post('/birthday/:id', (req, res) => {
+
+    const { id } = req.params;
+    const { quote } = req.body;
+
+    if (!quote) {
+        res.status(418).send({ message: 'we need a quote! LESGOWW' })
+    }
+
+    res.send({
+        message: `Happy Birthday! here is your quote: ${quote} and ID of ${id}`,
+    })
+})
